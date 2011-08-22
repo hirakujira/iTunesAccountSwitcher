@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADBA59B14021EDC00008540 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADBA59A14021EDC00008540 /* Cocoa.framework */; };
+		CADBA5A514021EDC00008540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5A314021EDC00008540 /* InfoPlist.strings */; };
+		CADBA5A714021EDC00008540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADBA5A614021EDC00008540 /* main.m */; };
+		CADBA5AB14021EDC00008540 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5A914021EDC00008540 /* Credits.rtf */; };
+		CADBA5AE14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADBA5AD14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m */; };
+		CADBA5B114021EDC00008540 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5AF14021EDC00008540 /* MainMenu.xib */; };
+		CADBA5B914021EDD00008540 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADBA5B814021EDD00008540 /* SenTestingKit.framework */; };
+		CADBA5BA14021EDD00008540 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADBA59A14021EDC00008540 /* Cocoa.framework */; };
+		CADBA5C214021EDD00008540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5C014021EDD00008540 /* InfoPlist.strings */; };
+		CADBA5C414021EDD00008540 /* iTunesAccountSwitcherTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5C314021EDD00008540 /* iTunesAccountSwitcherTests.h */; };
+		CADBA5C614021EDD00008540 /* iTunesAccountSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CADBA5C514021EDD00008540 /* iTunesAccountSwitcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADBA5BB14021EDD00008540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADBA58D14021EDC00008540 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADBA59514021EDC00008540;
+			remoteInfo = iTunesAccountSwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CADBA59614021EDC00008540 /* iTunesAccountSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAccountSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADBA59A14021EDC00008540 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CADBA59D14021EDC00008540 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CADBA59E14021EDC00008540 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CADBA59F14021EDC00008540 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CADBA5A214021EDC00008540 /* iTunesAccountSwitcher-Info.plist */ = {isa = PBXFileReference; path = "iTunesAccountSwitcher-Info.plist"; sourceTree = "<group>"; };
+		CADBA5A414021EDC00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CADBA5A614021EDC00008540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CADBA5A814021EDC00008540 /* iTunesAccountSwitcher-Prefix.pch */ = {isa = PBXFileReference; path = "iTunesAccountSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		CADBA5AA14021EDC00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CADBA5AC14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.h */ = {isa = PBXFileReference; path = iTunesAccountSwitcherAppDelegate.h; sourceTree = "<group>"; };
+		CADBA5AD14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAccountSwitcherAppDelegate.m; sourceTree = "<group>"; };
+		CADBA5B014021EDC00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CADBA5B714021EDD00008540 /* iTunesAccountSwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAccountSwitcherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADBA5B814021EDD00008540 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CADBA5BF14021EDD00008540 /* iTunesAccountSwitcherTests-Info.plist */ = {isa = PBXFileReference; path = "iTunesAccountSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		CADBA5C114021EDD00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CADBA5C314021EDD00008540 /* iTunesAccountSwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesAccountSwitcherTests.h; sourceTree = "<group>"; };
+		CADBA5C514021EDD00008540 /* iTunesAccountSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAccountSwitcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADBA59314021EDC00008540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADBA59B14021EDC00008540 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADBA5B314021EDD00008540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADBA5B914021EDD00008540 /* SenTestingKit.framework in Frameworks */,
+				CADBA5BA14021EDD00008540 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADBA58B14021EDC00008540 = {
+			isa = PBXGroup;
+			children = (
+				CADBA5A014021EDC00008540 /* iTunesAccountSwitcher */,
+				CADBA5BD14021EDD00008540 /* iTunesAccountSwitcherTests */,
+				CADBA59914021EDC00008540 /* Frameworks */,
+				CADBA59714021EDC00008540 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADBA59714021EDC00008540 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA59614021EDC00008540 /* iTunesAccountSwitcher.app */,
+				CADBA5B714021EDD00008540 /* iTunesAccountSwitcherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADBA59914021EDC00008540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA59A14021EDC00008540 /* Cocoa.framework */,
+				CADBA5B814021EDD00008540 /* SenTestingKit.framework */,
+				CADBA59C14021EDC00008540 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADBA59C14021EDC00008540 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA59D14021EDC00008540 /* AppKit.framework */,
+				CADBA59E14021EDC00008540 /* CoreData.framework */,
+				CADBA59F14021EDC00008540 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CADBA5A014021EDC00008540 /* iTunesAccountSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA5AC14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.h */,
+				CADBA5AD14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m */,
+				CADBA5AF14021EDC00008540 /* MainMenu.xib */,
+				CADBA5A114021EDC00008540 /* Supporting Files */,
+			);
+			path = iTunesAccountSwitcher;
+			sourceTree = "<group>";
+		};
+		CADBA5A114021EDC00008540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA5A214021EDC00008540 /* iTunesAccountSwitcher-Info.plist */,
+				CADBA5A314021EDC00008540 /* InfoPlist.strings */,
+				CADBA5A614021EDC00008540 /* main.m */,
+				CADBA5A814021EDC00008540 /* iTunesAccountSwitcher-Prefix.pch */,
+				CADBA5A914021EDC00008540 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CADBA5BD14021EDD00008540 /* iTunesAccountSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA5C314021EDD00008540 /* iTunesAccountSwitcherTests.h */,
+				CADBA5C514021EDD00008540 /* iTunesAccountSwitcherTests.m */,
+				CADBA5BE14021EDD00008540 /* Supporting Files */,
+			);
+			path = iTunesAccountSwitcherTests;
+			sourceTree = "<group>";
+		};
+		CADBA5BE14021EDD00008540 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CADBA5BF14021EDD00008540 /* iTunesAccountSwitcherTests-Info.plist */,
+				CADBA5C014021EDD00008540 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADBA59514021EDC00008540 /* iTunesAccountSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADBA5C914021EDD00008540 /* Build configuration list for PBXNativeTarget "iTunesAccountSwitcher" */;
+			buildPhases = (
+				CADBA59214021EDC00008540 /* Sources */,
+				CADBA59314021EDC00008540 /* Frameworks */,
+				CADBA59414021EDC00008540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesAccountSwitcher;
+			productName = iTunesAccountSwitcher;
+			productReference = CADBA59614021EDC00008540 /* iTunesAccountSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CADBA5B614021EDD00008540 /* iTunesAccountSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADBA5CC14021EDD00008540 /* Build configuration list for PBXNativeTarget "iTunesAccountSwitcherTests" */;
+			buildPhases = (
+				CADBA5B214021EDD00008540 /* Sources */,
+				CADBA5B314021EDD00008540 /* Frameworks */,
+				CADBA5B414021EDD00008540 /* Resources */,
+				CADBA5B514021EDD00008540 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADBA5BC14021EDD00008540 /* PBXTargetDependency */,
+			);
+			name = iTunesAccountSwitcherTests;
+			productName = iTunesAccountSwitcherTests;
+			productReference = CADBA5B714021EDD00008540 /* iTunesAccountSwitcherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADBA58D14021EDC00008540 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CADBA59014021EDC00008540 /* Build configuration list for PBXProject "iTunesAccountSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CADBA58B14021EDC00008540;
+			productRefGroup = CADBA59714021EDC00008540 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADBA59514021EDC00008540 /* iTunesAccountSwitcher */,
+				CADBA5B614021EDD00008540 /* iTunesAccountSwitcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADBA59414021EDC00008540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADBA5A514021EDC00008540 /* InfoPlist.strings in Resources */,
+				CADBA5AB14021EDC00008540 /* Credits.rtf in Resources */,
+				CADBA5B114021EDC00008540 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADBA5B414021EDD00008540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADBA5C214021EDD00008540 /* InfoPlist.strings in Resources */,
+				CADBA5C414021EDD00008540 /* iTunesAccountSwitcherTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CADBA5B514021EDD00008540 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADBA59214021EDC00008540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADBA5A714021EDC00008540 /* main.m in Sources */,
+				CADBA5AE14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADBA5B214021EDD00008540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADBA5C614021EDD00008540 /* iTunesAccountSwitcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CADBA5BC14021EDD00008540 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADBA59514021EDC00008540 /* iTunesAccountSwitcher */;
+			targetProxy = CADBA5BB14021EDD00008540 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CADBA5A314021EDC00008540 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADBA5A414021EDC00008540 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CADBA5A914021EDC00008540 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADBA5AA14021EDC00008540 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CADBA5AF14021EDC00008540 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADBA5B014021EDC00008540 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CADBA5C014021EDD00008540 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADBA5C114021EDD00008540 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADBA5C714021EDD00008540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CADBA5C814021EDD00008540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CADBA5CA14021EDD00008540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesAccountSwitcher/iTunesAccountSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "iTunesAccountSwitcher/iTunesAccountSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CADBA5CB14021EDD00008540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesAccountSwitcher/iTunesAccountSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "iTunesAccountSwitcher/iTunesAccountSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CADBA5CD14021EDD00008540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTunesAccountSwitcher.app/Contents/MacOS/iTunesAccountSwitcher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesAccountSwitcher/iTunesAccountSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "iTunesAccountSwitcherTests/iTunesAccountSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CADBA5CE14021EDD00008540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iTunesAccountSwitcher.app/Contents/MacOS/iTunesAccountSwitcher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesAccountSwitcher/iTunesAccountSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "iTunesAccountSwitcherTests/iTunesAccountSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADBA59014021EDC00008540 /* Build configuration list for PBXProject "iTunesAccountSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADBA5C714021EDD00008540 /* Debug */,
+				CADBA5C814021EDD00008540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADBA5C914021EDD00008540 /* Build configuration list for PBXNativeTarget "iTunesAccountSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADBA5CA14021EDD00008540 /* Debug */,
+				CADBA5CB14021EDD00008540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CADBA5CC14021EDD00008540 /* Build configuration list for PBXNativeTarget "iTunesAccountSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADBA5CD14021EDD00008540 /* Debug */,
+				CADBA5CE14021EDD00008540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADBA58D14021EDC00008540 /* Project object */;
+}
