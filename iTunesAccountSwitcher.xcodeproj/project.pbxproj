@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA99C36E14022049009E71A7 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CA99C36914022049009E71A7 /* icon.icns */; };
+		CA99C36F14022049009E71A7 /* logout.app in Resources */ = {isa = PBXBuildFile; fileRef = CA99C36A14022049009E71A7 /* logout.app */; };
+		CAD1118D14030B3200F958B9 /* iTunesAccountSwitcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD1118F14030B3200F958B9 /* iTunesAccountSwitcherAppDelegate.m */; };
+		CAD1119214030E2C00F958B9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD1119314030E2C00F958B9 /* MainMenu.xib */; };
+		CAD1119614030EDA00F958B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD1119814030EDA00F958B9 /* Localizable.strings */; };
+		CAD111A5140343CB00F958B9 /* s1.app in Resources */ = {isa = PBXBuildFile; fileRef = CAD111A0140343CB00F958B9 /* s1.app */; };
+		CAD111A6140343CB00F958B9 /* s2.app in Resources */ = {isa = PBXBuildFile; fileRef = CAD111A1140343CB00F958B9 /* s2.app */; };
+		CAD111A7140343CB00F958B9 /* s3.app in Resources */ = {isa = PBXBuildFile; fileRef = CAD111A2140343CB00F958B9 /* s3.app */; };
+		CAD111A8140343CB00F958B9 /* s4.app in Resources */ = {isa = PBXBuildFile; fileRef = CAD111A3140343CB00F958B9 /* s4.app */; };
+		CAD111A9140343CB00F958B9 /* s5.app in Resources */ = {isa = PBXBuildFile; fileRef = CAD111A4140343CB00F958B9 /* s5.app */; };
 		CADBA59B14021EDC00008540 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADBA59A14021EDC00008540 /* Cocoa.framework */; };
 		CADBA5A514021EDC00008540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5A314021EDC00008540 /* InfoPlist.strings */; };
 		CADBA5A714021EDC00008540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADBA5A614021EDC00008540 /* main.m */; };
 		CADBA5AB14021EDC00008540 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5A914021EDC00008540 /* Credits.rtf */; };
-		CADBA5AE14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADBA5AD14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m */; };
-		CADBA5B114021EDC00008540 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5AF14021EDC00008540 /* MainMenu.xib */; };
 		CADBA5B914021EDD00008540 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADBA5B814021EDD00008540 /* SenTestingKit.framework */; };
 		CADBA5BA14021EDD00008540 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADBA59A14021EDC00008540 /* Cocoa.framework */; };
 		CADBA5C214021EDD00008540 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADBA5C014021EDD00008540 /* InfoPlist.strings */; };
@@ -31,22 +39,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CADBA59614021EDC00008540 /* iTunesAccountSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAccountSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA99C36914022049009E71A7 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		CA99C36A14022049009E71A7 /* logout.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = logout.app; sourceTree = "<group>"; };
+		CAD1118E14030B3200F958B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/iTunesAccountSwitcherAppDelegate.m; sourceTree = "<group>"; };
+		CAD1119314030E2C00F958B9 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CAD1119714030EDA00F958B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CAD111A0140343CB00F958B9 /* s1.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = s1.app; sourceTree = "<group>"; };
+		CAD111A1140343CB00F958B9 /* s2.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = s2.app; sourceTree = "<group>"; };
+		CAD111A2140343CB00F958B9 /* s3.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = s3.app; sourceTree = "<group>"; };
+		CAD111A3140343CB00F958B9 /* s4.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = s4.app; sourceTree = "<group>"; };
+		CAD111A4140343CB00F958B9 /* s5.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = s5.app; sourceTree = "<group>"; };
+		CADBA59614021EDC00008540 /* iTunesAccountSwitcher.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = iTunesAccountSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADBA59A14021EDC00008540 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CADBA59D14021EDC00008540 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CADBA59E14021EDC00008540 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CADBA59F14021EDC00008540 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CADBA5A214021EDC00008540 /* iTunesAccountSwitcher-Info.plist */ = {isa = PBXFileReference; path = "iTunesAccountSwitcher-Info.plist"; sourceTree = "<group>"; };
+		CADBA5A214021EDC00008540 /* iTunesAccountSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesAccountSwitcher-Info.plist"; sourceTree = "<group>"; };
 		CADBA5A414021EDC00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CADBA5A614021EDC00008540 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CADBA5A814021EDC00008540 /* iTunesAccountSwitcher-Prefix.pch */ = {isa = PBXFileReference; path = "iTunesAccountSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		CADBA5A814021EDC00008540 /* iTunesAccountSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesAccountSwitcher-Prefix.pch"; sourceTree = "<group>"; };
 		CADBA5AA14021EDC00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CADBA5AC14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.h */ = {isa = PBXFileReference; path = iTunesAccountSwitcherAppDelegate.h; sourceTree = "<group>"; };
-		CADBA5AD14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAccountSwitcherAppDelegate.m; sourceTree = "<group>"; };
-		CADBA5B014021EDC00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CADBA5AC14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesAccountSwitcherAppDelegate.h; sourceTree = "<group>"; };
 		CADBA5B714021EDD00008540 /* iTunesAccountSwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesAccountSwitcherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADBA5B814021EDD00008540 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CADBA5BF14021EDD00008540 /* iTunesAccountSwitcherTests-Info.plist */ = {isa = PBXFileReference; path = "iTunesAccountSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		CADBA5BF14021EDD00008540 /* iTunesAccountSwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesAccountSwitcherTests-Info.plist"; sourceTree = "<group>"; };
 		CADBA5C114021EDD00008540 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CADBA5C314021EDD00008540 /* iTunesAccountSwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesAccountSwitcherTests.h; sourceTree = "<group>"; };
 		CADBA5C514021EDD00008540 /* iTunesAccountSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesAccountSwitcherTests.m; sourceTree = "<group>"; };
@@ -73,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAD1118A1403088200F958B9 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CAD111A0140343CB00F958B9 /* s1.app */,
+				CAD111A1140343CB00F958B9 /* s2.app */,
+				CAD111A2140343CB00F958B9 /* s3.app */,
+				CAD111A3140343CB00F958B9 /* s4.app */,
+				CAD111A4140343CB00F958B9 /* s5.app */,
+				CA99C36A14022049009E71A7 /* logout.app */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
 		CADBA58B14021EDC00008540 = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				CADBA5AC14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.h */,
-				CADBA5AD14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m */,
-				CADBA5AF14021EDC00008540 /* MainMenu.xib */,
+				CAD1118F14030B3200F958B9 /* iTunesAccountSwitcherAppDelegate.m */,
+				CAD1119814030EDA00F958B9 /* Localizable.strings */,
+				CAD1119314030E2C00F958B9 /* MainMenu.xib */,
 				CADBA5A114021EDC00008540 /* Supporting Files */,
 			);
 			path = iTunesAccountSwitcher;
@@ -126,9 +156,11 @@
 		CADBA5A114021EDC00008540 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CAD1118A1403088200F958B9 /* Scripts */,
 				CADBA5A214021EDC00008540 /* iTunesAccountSwitcher-Info.plist */,
 				CADBA5A314021EDC00008540 /* InfoPlist.strings */,
 				CADBA5A614021EDC00008540 /* main.m */,
+				CA99C36914022049009E71A7 /* icon.icns */,
 				CADBA5A814021EDC00008540 /* iTunesAccountSwitcher-Prefix.pch */,
 				CADBA5A914021EDC00008540 /* Credits.rtf */,
 			);
@@ -198,12 +230,16 @@
 /* Begin PBXProject section */
 		CADBA58D14021EDC00008540 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = CADBA59014021EDC00008540 /* Build configuration list for PBXProject "iTunesAccountSwitcher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hant",
 			);
 			mainGroup = CADBA58B14021EDC00008540;
 			productRefGroup = CADBA59714021EDC00008540 /* Products */;
@@ -223,7 +259,15 @@
 			files = (
 				CADBA5A514021EDC00008540 /* InfoPlist.strings in Resources */,
 				CADBA5AB14021EDC00008540 /* Credits.rtf in Resources */,
-				CADBA5B114021EDC00008540 /* MainMenu.xib in Resources */,
+				CAD1119214030E2C00F958B9 /* MainMenu.xib in Resources */,
+				CA99C36E14022049009E71A7 /* icon.icns in Resources */,
+				CA99C36F14022049009E71A7 /* logout.app in Resources */,
+				CAD1119614030EDA00F958B9 /* Localizable.strings in Resources */,
+				CAD111A5140343CB00F958B9 /* s1.app in Resources */,
+				CAD111A6140343CB00F958B9 /* s2.app in Resources */,
+				CAD111A7140343CB00F958B9 /* s3.app in Resources */,
+				CAD111A8140343CB00F958B9 /* s4.app in Resources */,
+				CAD111A9140343CB00F958B9 /* s5.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADBA5A714021EDC00008540 /* main.m in Sources */,
-				CADBA5AE14021EDC00008540 /* iTunesAccountSwitcherAppDelegate.m in Sources */,
+				CAD1118D14030B3200F958B9 /* iTunesAccountSwitcherAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +327,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CAD1118F14030B3200F958B9 /* iTunesAccountSwitcherAppDelegate.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD1118E14030B3200F958B9 /* en */,
+			);
+			name = iTunesAccountSwitcherAppDelegate.m;
+			sourceTree = "<group>";
+		};
+		CAD1119814030EDA00F958B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD1119714030EDA00F958B9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		CADBA5A314021EDC00008540 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,14 +357,6 @@
 				CADBA5AA14021EDC00008540 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		CADBA5AF14021EDC00008540 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CADBA5B014021EDC00008540 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		CADBA5C014021EDD00008540 /* InfoPlist.strings */ = {
@@ -322,7 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -338,9 +390,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -348,7 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -358,8 +410,9 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};
@@ -369,6 +422,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTunesAccountSwitcher/iTunesAccountSwitcher-Prefix.pch";
 				INFOPLIST_FILE = "iTunesAccountSwitcher/iTunesAccountSwitcher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,6 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iTunesAccountSwitcher/iTunesAccountSwitcher-Prefix.pch";
 				INFOPLIST_FILE = "iTunesAccountSwitcher/iTunesAccountSwitcher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -432,6 +487,7 @@
 				CADBA5CB14021EDD00008540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CADBA5CC14021EDD00008540 /* Build configuration list for PBXNativeTarget "iTunesAccountSwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +496,7 @@
 				CADBA5CE14021EDD00008540 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

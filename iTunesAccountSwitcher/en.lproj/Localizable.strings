@@ -1,0 +1,9 @@
+// 請修改Apple ID 1~5為想要的名稱，例如美國、日本、台灣...等，之後直接按鍵盤的command+s存檔。
+
+// buttonLabel_1~5是程式辨識使用，千萬不要修改！
+
+"buttonLabel_1" = "Apple ID 1";
+"buttonLabel_2" = "Apple ID 2";
+"buttonLabel_3" = "Apple ID 3";
+"buttonLabel_4" = "Apple ID 4";
+"buttonLabel_5" = "Apple ID 5";
